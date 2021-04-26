@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.StoreUI">
+   <children>
+      <ComboBox fx:id="toolList" layoutX="36.0" layoutY="134.0" prefWidth="150.0" visibleRowCount="4" />
+      <Label layoutX="128.0" layoutY="27.0" text="Welcome to *Generic Hardware Store*!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="82.0" prefHeight="52.0" prefWidth="182.0" text="Please select the tool code for the tool you would like to checkout." textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="395.0" layoutY="88.0" prefHeight="40.0" prefWidth="156.0" text="Please select a checkout date." textAlignment="CENTER" wrapText="true" />
+      <DatePicker fx:id="datePicker" layoutX="387.0" layoutY="134.0" />
+      <Button fx:id="checkout" alignment="BOTTOM_CENTER" layoutX="267.0" layoutY="352.0" mnemonicParsing="false" text="Checkout" />
+      <Label layoutX="17.0" layoutY="244.0" text="Please input a discount percentage." />
+      <Label layoutX="369.0" layoutY="244.0" text="Please input the number of rental days." />
+      <TextField fx:id="discountPercentField" layoutX="37.0" layoutY="269.0" />
+      <TextField fx:id="rentalDayField" layoutX="399.0" layoutY="269.0" />
+   </children>
+</AnchorPane>
